@@ -46,7 +46,7 @@ sudo pacman -S git cmake base-devel curl
 ### 1. Clone and Build the Engine
 ```bash
 mkdir -p \(HOME/fortaleza_ia && cd\)HOME/fortaleza_ia
-git clone 
+git clone https://github.com/TOTAkawa/terminal_IA_automatic.git
 cd llama.cpp
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build --config Release
