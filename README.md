@@ -59,7 +59,7 @@ cmake --build build --config Release
 ### 3. Deploying the Environment
 Clone this automation repository from Codeberg:
 ```bash
-git clone 
+git clone https://codeberg.org/DaviKawa21/terminal_IA_automatic.git
 cd fortaleza_ia
 chmod +x iniciar_ia.sh iniciar_conversa.sh
 ```
