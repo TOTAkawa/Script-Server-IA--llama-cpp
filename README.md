@@ -46,7 +46,7 @@ sudo pacman -S git cmake base-devel curl
 ### 1. Clone and Build the Engine
 ```bash
 mkdir -p \(HOME/fortaleza_ia && cd\)HOME/fortaleza_ia
-git clone https://github.com/TOTAkawa/terminal_IA_automatic.git
+git clone https://github.com/TOTAkawa/Script-Server-IA--llama.cpp.git
 cd llama.cpp
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build --config Release
@@ -59,7 +59,7 @@ cmake --build build --config Release
 ### 3. Deploying the Environment
 Clone this automation repository from Codeberg:
 ```bash
-git clone https://codeberg.org/DaviKawa21/terminal_IA_automatic.git
+git clone https://codeberg.org/DaviKawa21/Script-Server-IA--llama.cpp.git
 cd fortaleza_ia
 chmod +x iniciar_ia.sh iniciar_conversa.sh
 ```
